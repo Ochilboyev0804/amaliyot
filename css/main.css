@@ -1,0 +1,20 @@
+.input_group {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input_group_img {
+    /* margin-right: -30px; */
+    z-index: 10;
+    position: absolute;
+}
+
+.input_group_text_input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 30px;
+    position: absolute;
+    outline: none;
+}
